@@ -1,5 +1,12 @@
 # @cloudflare/next-on-pages
 
+## 1.12.0
+
+### Minor Changes
+
+- c2b173c: Fix: The city name for the location of the requester's public IP address must be encoded according to RFC3986.
+- 2d55e8f: Optimized cache tags manifest loading; cache updates do not block responses
+
 ## 1.11.3
 
 ### Patch Changes
